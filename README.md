@@ -9,5 +9,7 @@ Build a iOS app using SwiftUI and Core Data with the following functionalities:
   
 # Task 2 (Work in progress)
 Extend the iOS app with a Watch app as the target with the following functionalities:
-- Add a watchOS Target
+- add a watchOS Target
+- create an independent watchOS app. Independent watchOS apps don’t require an iOS companion app.
+- share the neccessary files between the targets
 - fetch the items from core data
