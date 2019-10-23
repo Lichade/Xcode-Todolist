@@ -28,6 +28,10 @@
 		862D3506236067B000FDEE6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862D3505236067B000FDEE6D /* Assets.xcassets */; };
 		862D3509236067B000FDEE6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862D3508236067B000FDEE6D /* Preview Assets.xcassets */; };
 		862D350E236067B000FDEE6D /* WatchTodolist.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 862D34EA236067AD00FDEE6D /* WatchTodolist.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		862D351723606A0700FDEE6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862D34D223602BAB00FDEE6D /* ContentView.swift */; };
+		862D351823606A0700FDEE6D /* ToDoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862D34E623605A5E00FDEE6D /* ToDoItemView.swift */; };
+		862D351923606A0700FDEE6D /* ToDoItemEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862D34E423603E7800FDEE6D /* ToDoItemEntity.swift */; };
+		862D351B23606A8800FDEE6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862D34D423602BAD00FDEE6D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -313,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				862D34F0236067AF00FDEE6D /* Assets.xcassets in Resources */,
+				862D351B23606A8800FDEE6D /* Assets.xcassets in Resources */,
 				862D34EE236067AD00FDEE6D /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,7 +352,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				862D34FE236067AF00FDEE6D /* HostingController.swift in Sources */,
+				862D351923606A0700FDEE6D /* ToDoItemEntity.swift in Sources */,
 				862D34FC236067AF00FDEE6D /* ContentView.swift in Sources */,
+				862D351823606A0700FDEE6D /* ToDoItemView.swift in Sources */,
+				862D351723606A0700FDEE6D /* ContentView.swift in Sources */,
 				862D3502236067AF00FDEE6D /* NotificationController.swift in Sources */,
 				862D3500236067AF00FDEE6D /* ExtensionDelegate.swift in Sources */,
 				862D3504236067AF00FDEE6D /* NotificationView.swift in Sources */,

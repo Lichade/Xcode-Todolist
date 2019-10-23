@@ -11,5 +11,7 @@ Build a iOS app using SwiftUI and Core Data with the following functionalities:
 Extend the iOS app with a Watch app as the target with the following functionalities:
 - add a watchOS Target
 - create an independent watchOS app. Independent watchOS apps don’t require an iOS companion app.
-- share the neccessary files between the targets
+- share the necessary files between the targets:
+    - classes from the Todolist iOS app: WatchTodolist Extension
+    - Assets.xcassets from the Todolist iOS app: WatchTodolist
 - fetch the items from core data
