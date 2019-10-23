@@ -15,6 +15,7 @@
 		862D34D823602BAD00FDEE6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862D34D723602BAD00FDEE6D /* Preview Assets.xcassets */; };
 		862D34DB23602BAD00FDEE6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862D34D923602BAD00FDEE6D /* LaunchScreen.storyboard */; };
 		862D34E3236032FE00FDEE6D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 862D34E2236032FE00FDEE6D /* README.md */; };
+		862D34E523603E7800FDEE6D /* ToDoItemEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862D34E423603E7800FDEE6D /* ToDoItemEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		862D34DA23602BAD00FDEE6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		862D34DC23602BAD00FDEE6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		862D34E2236032FE00FDEE6D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		862D34E423603E7800FDEE6D /* ToDoItemEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				862D34CB23602BAB00FDEE6D /* AppDelegate.swift */,
 				862D34CD23602BAB00FDEE6D /* SceneDelegate.swift */,
 				862D34D223602BAB00FDEE6D /* ContentView.swift */,
+				862D34E423603E7800FDEE6D /* ToDoItemEntity.swift */,
 				862D34D423602BAD00FDEE6D /* Assets.xcassets */,
 				862D34D923602BAD00FDEE6D /* LaunchScreen.storyboard */,
 				862D34DC23602BAD00FDEE6D /* Info.plist */,
@@ -155,6 +158,7 @@
 			files = (
 				862D34D123602BAB00FDEE6D /* Todolist.xcdatamodeld in Sources */,
 				862D34CC23602BAB00FDEE6D /* AppDelegate.swift in Sources */,
+				862D34E523603E7800FDEE6D /* ToDoItemEntity.swift in Sources */,
 				862D34D323602BAB00FDEE6D /* ContentView.swift in Sources */,
 				862D34CE23602BAB00FDEE6D /* SceneDelegate.swift in Sources */,
 			);
